@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 992px) {
+  .kan-nav {
+    flex-basis: 20%;
+  }
+  .kan-time {
+    display: none;
+  }
+
+  .kan-img {
+    width: 48px;
+    height: 48px;
+  }
+  .kan-head {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .kan-avatar {
+    width: 80px;
+    height: 80px;
+    margin-top: 25px;
+  }
+}
